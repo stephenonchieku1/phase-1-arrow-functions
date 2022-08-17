@@ -1,9 +1,6 @@
 const divide =function(){
     return 2000/100;
 }
-const square =function(num){
-    return num*num;
-}
-const add = function(num1,num2){
- return num1+num2;
-}
+const square   = x =>x**2;
+
+const add = (num1,num2)=> num1+num2;
